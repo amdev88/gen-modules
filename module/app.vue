@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>This is header</h1>
+    <h1>Header</h1>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
   </div>
