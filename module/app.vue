@@ -12,24 +12,29 @@
 </template>
 
 <script setup>
+
 useHead({
-  noscript: [
-    {
-      innerHTML: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8GFW9MD" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
-    }
-  ],
-  script: [
-    // {
-    //   "postPromptUI": "postPromptUI",
-    //   "clientConfig": {
-    //     "cdid": "ff916782129fa",
-    //     "params": ""
-    //   }
-    // },
-    {
-      src: "https://www.googletagmanager.com/gtag/js?id=G-39CS26ZSZS",
-      async: "true"
-    }
-  ]
+  // noscript: [
+  //   {
+  //     innerHTML: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8GFW9MD" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
+  //   }
+  // ],
+  // script: [
+  //   {
+  //     type: "application/json",
+  //     innerHTML: JSON.stringify({
+  //       postPromptUI: "postPromptUI",
+  //       clientConfig: {
+  //         cdid: "ff916782129fa",
+  //         params: ""
+  //       }
+  //     }),
+  //     tagPosition: "beforeEnd", // Ensure it goes inside <amp-consent>
+  //   },
+  //   {
+  //     src: "https://www.googletagmanager.com/gtag/js?id=G-39CS26ZSZS",
+  //     async: "true"
+  //   }
+  // ]
 })
 </script>
